@@ -18,14 +18,10 @@ public class SelenideHome {
 @Test
     void selenideHomeTest(){
 
-    // Откройте страницу Selenide в Github
     open("https://github.com/selenide/selenide");
-        // Перейдите в раздел Wiki проекта
     $("#wiki-tab").click();
     $("#wiki-pages-box > div > div.js-wiki-sidebar-toggle-display > ul > li.Box-row.wiki-more-pages-link > button").click();
-    // Убедитесь, что в списке страниц (Pages) есть страница SoftAssertions
     $("#wiki-pages-box").$(byText("SoftAssertions")).click();
-    //Откройте страницу SoftAssertions, проверьте что внутри есть пример кода для JUnit5
     $(".markdown-body").shouldHave(text("@ExtendWith({SoftAssertsExtension.class})\n" +
             "class Tests {\n" +
             "  @Test\n" +
