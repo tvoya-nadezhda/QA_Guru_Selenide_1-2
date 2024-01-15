@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="guruqa.SelenideHome" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-14T22:38:02" hostname="DESKTOP-7FP2AB2" time="5.113">
+<testsuite name="guruqa.GitHubSolutions" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-15T22:29:47" hostname="DESKTOP-7FP2AB2" time="7.068">
   <properties/>
-  <testcase name="selenideHomeTest()" classname="guruqa.SelenideHome" time="5.113"/>
+  <testcase name="gitHubSolutionsTest()" classname="guruqa.GitHubSolutions" time="7.068"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-янв. 15, 2024 1:38:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+янв. 16, 2024 1:29:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
 ]]></system-err>
 </testsuite>
