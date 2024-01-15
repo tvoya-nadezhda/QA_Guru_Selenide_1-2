@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guruqa.GITSelenideActions" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-15T23:04:02" hostname="DESKTOP-7FP2AB2" time="4.497">
+  <properties/>
+  <testcase name="gitSelenideDragAndDrop()" classname="guruqa.GITSelenideActions" time="4.009"/>
+  <testcase name="gitSelenideActions()" classname="guruqa.GITSelenideActions" time="0.488"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+янв. 16, 2024 2:04:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+</testsuite>

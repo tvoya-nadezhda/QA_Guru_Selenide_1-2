@@ -1,22 +1,20 @@
 package guruqa;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
-import static com.codeborne.selenide.files.DownloadActions.click;
 
-public class GitHubSolutions {@BeforeAll
+
+public class GitHubSolutions {
+    @BeforeAll
 static void beforeAll() {
     Configuration.pageLoadStrategy = "eager";
-     Configuration.holdBrowserOpen = true;
+    // Configuration.holdBrowserOpen = true;
     // Configuration.baseUrl = "";
 };
     @Test
