@@ -11,7 +11,7 @@ public class GITSelenideActions {
         @BeforeAll
         static void beforeAll () {
         Configuration.pageLoadStrategy = "eager";
-         Configuration.holdBrowserOpen = true;
+        // Configuration.holdBrowserOpen = true;
         // Configuration.baseUrl = "";
     };
         @Test
