@@ -17,13 +17,13 @@ public class GITSelenideActions {
         @Test
         void gitSelenideActions(){
          open("https://the-internet.herokuapp.com/drag_and_drop");
-           actions().dragAndDrop($("#column-a"), $("#column-b")).perform();
-           $("#column-a").shouldHave(text("b"));
-                   };
-        @Test void gitSelenideDragAndDrop(){
-            open("https://the-internet.herokuapp.com/drag_and_drop");
-            $("#column-a").dragAndDrop(to($("#column-a")));
-            $("#column-a").shouldHave(text("a"));
-
-         }
-}
+            $("#column-a").shouldHave(text("A"));
+            $("#column-b").shouldHave(text("B"));
+           actions().dragAndDrop($("#column-a"),$("#column-b")).perform();
+           $("#column-a").shouldHave(text("B"));
+            $("#column-b").shouldHave(text("A"));
+            $("#column-a").dragAndDrop(to($("#column-b")));
+            $("#column-a").shouldHave(text("A"));
+            $("#column-b").shouldHave(text("B"));
+        };
+    }
