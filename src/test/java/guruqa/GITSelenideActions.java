@@ -38,5 +38,4 @@ public class GITSelenideActions {
     void afterEach(){
         Selenide.closeWebDriver();
     };
-
     }
